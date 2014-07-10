@@ -12,7 +12,8 @@ head(hhDt1$x)
 
 #Opening the png file for the plot
 png(filename="ExData_Plotting1/plot2.png")
-with ( hhDt1, plot (x, Global_active_power, type = "l", ylab="Global Active Power (kilowatts )", 
-                    xlab=""))
+with(hhDt1, plot(x, Global_active_power, type = "l", ylab="Global Active Power (kilowatts )", xlab=""))
+with(hhDt1, plot(x, Voltage, type = "l", ylab="Voltage", xlab=""))
+with(hhDt1, plot(x, Voltage, type = "l", ylab="Voltage", xlab=""))
 dev.off()
 

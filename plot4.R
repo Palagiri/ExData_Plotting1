@@ -22,4 +22,4 @@ legend ("topright", col=c("black", "red", "blue"),
         pch= "-", legend=c("Sub_metering_1","Sub_metering_2", "Sub_metering_3"))
 
 with(hhDt1, plot(x, Global_reactive_power, type = "l", xlab="date time"))
-dev.off()
+dev.off()github
